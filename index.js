@@ -6,7 +6,7 @@ function Item(props) {
   return (
     <div className="item">
       <b>Name:</b> {props.name} <br />
-      <b>Price:</b> ${props.price}
+      <b>Price:</b> KSH {props.price}
     </div>
   );
 }
@@ -14,10 +14,13 @@ function Item(props) {
 function App() {
   return (
     <div>
-      <Item name="Cheese" price="4.99" />
-      <Item name="Bread" price="1.5" />
-      <Item name="Ice cream" price="24" />
-      <Item name="Milk" price="1.0" />
+      <Item name="Cheese" price="250.00" />
+      <Item name="Bread" price="90.00" />
+      <Item name="Ice cream" price="240.00" />
+      <Item name="Meat pie" price="130.00" />
+      <Item name="Hotdog" price="70.00" />
+      <Item name="Milk-cookies" price="100.00" />
+      <Item name="Medium-sized Shopping bag" price="10.00" />
     </div>
   );
 }
